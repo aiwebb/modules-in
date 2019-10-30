@@ -1,0 +1,27 @@
+{
+  "name": "modules-in",
+  "version": "0.0.1",
+  "description": "const lib = require('modules-in')('./lib') // loads modules in a given dir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiwebb/modules-in.git"
+  },
+  "keywords": [
+    "load",
+    "modules",
+    "index.js",
+    "lib",
+    "middleware",
+    "directory"
+  ],
+  "author": "Alex Webb <alexwebb2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aiwebb/modules-in/issues"
+  },
+  "homepage": "https://github.com/aiwebb/modules-in#readme"
+}
