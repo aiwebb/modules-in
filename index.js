@@ -19,4 +19,7 @@ const getModules = dir => {
   return modules
 }
 
+// This module should not be cached - it'll break relative path usage
+delete require.cache[__filename]
+
 module.exports = relativePath => getModules(path.resolve(path.dirname(module.parent.filename), relativePath))
