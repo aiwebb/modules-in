@@ -1,6 +1,6 @@
 {
   "name": "modules-in",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "const lib = require('modules-in')('./lib') // loads modules in a given dir",
   "main": "index.js",
   "scripts": {
